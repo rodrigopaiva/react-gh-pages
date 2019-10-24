@@ -1,0 +1,45 @@
+/* === iPad 1 and 2 === */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+  /* nav-primary ================ */
+  .nav-primary {
+    margin-bottom: 80px;
+  }
+
+  .nav-primary .aux {
+    width: 95%;
+  }
+
+  .nav-primary ul {
+    width: 96%;
+  }
+
+  /* items ================ */
+  .items li {
+    height: 464px;
+  }
+
+  .items li:after {
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+  }
+
+  .items li figure img {
+    margin: 0;
+  }
+
+  .items li .item-content .aux {
+    width: 90%;
+  }
+
+  .items li .item-content .aux h2 {
+    font-size: 25px;
+  }
+
+  .items li .item-content .aux p {
+    font-size: 14px;
+  }
+}

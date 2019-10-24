@@ -7,6 +7,7 @@ import iconPlus from './images/plus.svg';
 import iconStack from './images/stack.svg';
 import iconHappy from './images/emoji-happy.png';
 import './css/App.css';
+import './css/responsive-ipad.css';
 
 class App extends Component {
 

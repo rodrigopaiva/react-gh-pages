@@ -1,0 +1,56 @@
+/* === Smartphones === */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+  /* nav-primary ================ */
+  .nav-primary {
+    height: 90px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    margin: 0;
+  }
+
+  .nav-primary .aux {
+    display: inherit;
+    padding-top: 15px;
+    position: relative;
+  }
+
+  .nav-primary .aux h1 {
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .nav-primary ul {
+    width: 100%;
+  }
+
+  .nav-primary ul li {
+    width: 30px;
+    overflow: hidden;
+  }
+
+  .nav-primary ul li.nav-active {
+    width: auto;
+  }
+
+  /* items ================ */
+  .items{
+    margin-top: 185px;
+  }
+
+  .items li {
+    height: auto;
+  }
+
+  .items li figure {
+    float: none;
+  }
+
+  .items li .item-content .aux a {
+    margin-bottom: 25px;
+  }
+}

@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## WP
+Para velocidade do andamento do teste resolvi usar um dos temas padrões que já vêm no Wordpress. Nele eu adicionei uma função no arquivo [functions.php] para que os valores inseridos nos campos personalizados do ACF carregassem na Rest API do WP.
+
+## CSS
+Iria usar o pré-processador Stylus, mas acabei optando por usar as CSS padrões pelo fato de nunca ter usado em um projeto React, ter que estudar React e implementar num curto espaço de tempo.
+Mas deixei as CSS em arquivos separados, facilitando assim uma manutenção futura.
+
 ## Available Scripts
 
 In the project directory, you can run:

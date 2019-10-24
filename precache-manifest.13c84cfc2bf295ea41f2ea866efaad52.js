@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9bd16d8bcc7ab98f95d4565b85c6ff4",
+    "revision": "f2ef371d97371b530317e7faef286d54",
     "url": "/react-gh-pages/index.html"
   },
   {
-    "revision": "60048ef50faece3e3f80",
-    "url": "/react-gh-pages/static/css/main.e80d58a5.chunk.css"
+    "revision": "d7891869578927fede2c",
+    "url": "/react-gh-pages/static/css/main.8ebb0cb7.chunk.css"
   },
   {
-    "revision": "4c0581085e22efa411f4",
-    "url": "/react-gh-pages/static/js/2.4dfb20cf.chunk.js"
+    "revision": "24dba630ab3dcaa35f80",
+    "url": "/react-gh-pages/static/js/2.904d484e.chunk.js"
   },
   {
-    "revision": "60048ef50faece3e3f80",
-    "url": "/react-gh-pages/static/js/main.19991dd7.chunk.js"
+    "revision": "d7891869578927fede2c",
+    "url": "/react-gh-pages/static/js/main.d1eea88b.chunk.js"
   },
   {
     "revision": "d1ce432b67083ccc0594",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "256114b4d671ccf2822d1dfad50fc994",
     "url": "/react-gh-pages/static/media/play.256114b4.svg"
+  },
+  {
+    "revision": "fc04cfa28a45a70c3dda66496de74355",
+    "url": "/react-gh-pages/static/media/plus.fc04cfa2.svg"
   },
   {
     "revision": "f76fa13c6c3785e1bd90f276cc1fd458",

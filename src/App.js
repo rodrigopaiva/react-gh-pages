@@ -17,7 +17,7 @@ class App extends Component {
 
     this.state = {
       items: [],
-      dataRoute: 'http://rodrigofelipe.com.br/testes/wp-headless/wp-json/wp/v2/posts/'
+      dataRoute: 'https://rodrigofelipe.com.br/testes/wp-headless/wp-json/wp/v2/posts/'
     };
 
     this.showAllItems = this.showAllItems.bind(this);

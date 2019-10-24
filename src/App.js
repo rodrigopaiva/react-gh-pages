@@ -3,7 +3,7 @@ import iconBook from './images/book.svg';
 import iconChart from './images/chart.svg';
 import iconGear from './images/gear.svg';
 import iconPlay from './images/play.svg';
-// import iconPlus from './images/plus.svg';
+import iconPlus from './images/plus.svg';
 import iconStack from './images/stack.svg';
 import iconHappy from './images/emoji-happy.png';
 import './css/App.css';
@@ -52,6 +52,37 @@ class App extends Component {
             </h1>
           </div>
         </nav>
+
+
+        <ul className="items animated fadeInLeft delay-3s">
+
+          {this.state.items.map((item) =>
+
+            <li className={item.category} key={`item-${item.id}}`}>
+
+              <figure>
+                <img src={ item.image } alt={ item.name } className="item-image"/>
+              </figure>
+
+
+              <div className="item-content center-v-h">
+                <div className="aux">
+                  <h2>{ item.name }</h2>
+
+                  <p className="txt">{ item.description }</p>
+
+                  <a
+                    className="item-link"
+                    href={ item.link }
+                  >
+                    <img src={ iconPlus } alt="icon-plus" /> Saiba mais sobre o { item.category }
+                  </a>
+                </div>
+              </div>
+            </li>
+          )}
+
+        </ul>
 
       </div>
     );
